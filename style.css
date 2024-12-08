@@ -117,9 +117,10 @@ section{
 
 }
 
-.header .search-form{
+.header .search-form {
     position: absolute;
-    top:115%; right:7%;
+    top: 115%;
+    right: 7%;
     background: #f1e9e9;
     width: 50rem;
     height: 5rem;
@@ -128,15 +129,15 @@ section{
     z-index: 10; /* Ensure it's above other elements */
     opacity: 0; /* Start hidden */
     transform: translateY(-20px); /* Start off-screen */
-    transition: opacity 0.3s ease, transform 0.3s ease; 
+    transition: opacity 0.3s ease, transform 0.3s ease; /* Smooth transition */
 }
 
-.header .search-form .active{
+.header .search-form.active {
     opacity: 1; /* Make visible */
-    transform: translateY(0);
+    transform: translateY(0); /* Bring it into view */
 }
 
-.header .search-form input{
+.header .search-form input {
     height: 100%;
     width: 100%;
     font-size: 1.6rem;
@@ -144,16 +145,19 @@ section{
     padding: 1rem;
     text-transform: none;
 }
-.header .search-form label{
+
+.header .search-form label {
     cursor: pointer;
     font-size: 2.2rem;
     margin-right: 2rem;
     color: var(--black);
 }
-.header .search-form label:hover{
-    color:var(--main-color) ;
+
+.header .search-form label:hover {
+    color: var(--main-color);
 }
 
+/* Adjust for smaller screens */
 @media (max-width: 768px) {
     .header .search-form {
         width: 90%;
@@ -449,7 +453,7 @@ section{
 }
 
 .footer .share a:hover{
-    background-color: var(--main-color);
+    background: var(--main-color);
 }
 
 .footer .links{
@@ -539,11 +543,12 @@ section{
        }
 
  }
-@media (max-width:768px) {
+ @media (max-width:768px) {
     .header .cart-items-container {
         width: 90%;
     }
 }
+
 
     @media (max-width:450px){
 
