@@ -539,6 +539,11 @@ section{
        }
 
  }
+@media (max-width:768px) {
+    .header .cart-items-container {
+        width: 90%;
+    }
+}
 
     @media (max-width:450px){
 
