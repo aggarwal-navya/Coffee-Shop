@@ -571,27 +571,6 @@ section{
 .footer .credit .span{
      color: var(--main-color);
 }
-.footer .back-to-top {
-    text-align: center;
-    margin-top: 2rem;
-}
-
-.footer .back-to-top .btn {
-    padding: 1rem 2rem;
-    font-size: 1.8rem;
-    background: var(--main-color);
-    color: var(--black);
-    border-radius: 0.5rem;
-    cursor: pointer;
-    text-transform: uppercase;
-    transition: background 0.3s ease;
-}
-
-.footer .back-to-top .btn:hover {
-    background: #ff9966;
-    color: #fff;
-}
-
 
 @media (max-width:991px){
 
