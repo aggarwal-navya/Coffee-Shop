@@ -301,6 +301,96 @@ section{
     }
 }
 
+.checkout {
+    padding: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.checkout .heading {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2em;
+    color: #6f4e37;
+}
+
+.checkout-container {
+    display: flex;
+    gap: 20px;
+}
+.order-summary {
+    flex: 1;
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.order-item {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+.order-item img {
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+}
+.order-item .content h3 {
+    margin: 0;
+}
+.order-item .price {
+    color: #6f4e37;
+    font-weight: bold;
+}
+.total h3 {
+    text-align: right;
+    margin-top: 20px;
+    color: #6f4e37;
+}
+/* Billing Details */
+.billing-details {
+    flex: 1;
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.billing-details form {
+    display: flex;
+    flex-direction: column;
+}
+.inputBox {
+    position: relative;
+    margin-bottom: 15px;
+}
+.inputBox span {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    color: #6f4e37;
+}
+.inputBox input {
+    width: 100%;
+    padding: 10px 10px 10px 40px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+.inputBox input:focus {
+    border-color: #6f4e37;
+    outline: none;
+}
+.btn {
+    padding: 10px;
+    background: #6f4e37;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn:hover {
+    background: #563b2a;
+}
+
 .home{
     min-height: 100vh;
     display: flex;
@@ -369,6 +459,17 @@ section{
 
 .menu .box-container .box img{
     height:10rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+.menu .box-container .box:hover img {
+    transform: scale(1.5); 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.6);
+    border-radius: 5px; 
+}
+.menu .box-container .box:hover {
+    background: #b95526; 
+    transform: translateY(-5px); 
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); 
 }
 
 .menu .box-container .box h3{
