@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Check Out </title>
+</head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+
+<link rel="stylesheet" href="style.css">
+
+<body>
+    <section class="checkout">
+        <h1 class="heading"> Checkout </h1>
+    
+        <div class="checkout-container">
+            <div class="order-summary">
+                <h2>Order Summary</h2>
+                <div class="order-item">
+                    <img src="cart1.jpeg" alt="Cart Item 01">
+                    <div class="content">
+                        <h3>Cart Item 01</h3>
+                        <p>Quantity: 1</p>
+                        <div class="price">$15.80</div>
+                    </div>
+                </div>
+                <div class="order-item">
+                    <img src="cart2.jpeg" alt="Cart Item 02">
+                    <div class="content">
+                        <h3>Cart Item 02</h3>
+                        <p>Quantity: 1</p>
+                        <div class="price">$16.34</div>
+                    </div>
+                </div>
+                <div class="total">
+                    <h3>Total: $32.14</h3>
+                </div>
+            </div>
+    
+            <div class="billing-details">
+                <h2>Billing Details</h2>
+                <form action="">
+                    <div class="inputBox">
+                        <span class="fas fa-user"></span>
+                        <input type="text" placeholder="Full Name" required>
+                    </div>
+                    <div class="inputBox">
+                        <span class="fas fa-envelope"></span>
+                        <input type="email" placeholder="Email Address" required>
+                    </div>
+                    <div class="inputBox">
+                        <span class="fas fa-phone"></span>
+                        <input type="tel" placeholder="Phone Number" required>
+                    </div>
+                    <div class="inputBox">
+                        <span class="fas fa-map-marker-alt"></span>
+                        <input type="text" placeholder="Address" required>
+                    </div>
+                    <div class="inputBox">
+                        <span class="fas fa-city"></span>
+                        <input type="text" placeholder="City" required>
+                    </div>
+                    <div class="inputBox">
+                        <span class="fas fa-globe"></span>
+                        <input type="text" placeholder="Country" required>
+                    </div>
+                    <input type="submit" value="Place Order" class="btn">
+                </form>
+            </div>
+        </div>
+    </section>
+    
+    <script src="script.js"></script>
+
+</body>
+</html>
