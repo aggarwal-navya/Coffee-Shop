@@ -455,6 +455,7 @@ section{
     padding:5rem;
     text-align: center;
     border: var(--border);
+    transition: 0.3s ease-in-out;
 }
 
 .menu .box-container .box img{
@@ -489,7 +490,7 @@ section{
     text-decoration: line-through;
 }
 .menu .box-container .box:hover{
-    background: #fff;
+    background:#8b402200 ;
 }
 .menu .box-container .box:hover > *{
     background: var(--black);
