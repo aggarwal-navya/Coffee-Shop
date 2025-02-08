@@ -236,21 +236,27 @@
 <section class="contact" id="contact">
     <h1 class="heading"><span>Contact</span></h1>
     <div class="row">
-        <form action="">
+                <form action="mailto:youremail@example.com" method="post" enctype="text/plain">
             <h3>Get in Touch</h3>
+
             <div class="inputBox">
-                <span class="fas fa-user"></span>
-                <input type="text" placeholder="Name">
+                <label for="name"><span class="fas fa-user"></span></label>
+                <input type="text" id="name" placeholder="Name" required>
             </div>
+
             <div class="inputBox">
-                <span class="fas fa-envelope"></span>
-                <input type="email" placeholder="Email">
+                <label for="email"><span class="fas fa-envelope"></span></label>
+                <input type="email" id="email" placeholder="Email" required>
             </div>
+
             <div class="inputBox">
-                <span class="fas fa-phone"></span>
-                <input type="tel" placeholder="Phone Number">
+                <label for="phone"><span class="fas fa-phone"></span></label>
+                <input type="tel" id="phone" placeholder="Phone Number" required>
             </div>
-            <input type="submit" value="Contact Now">
+
+            <div class="button-container">
+                <button type="submit">Contact Now</button>
+            </div>
         </form>
     </div>
 </section>
@@ -299,11 +305,11 @@
 
 <section class="footer">
     <div class="share">
-        <a href="#" class="fab fa-facebook-f"></a>
-        <a href="#" class="fab fa-twitter"></a>
-        <a href="#" class="fab fa-instagram"></a>
-        <a href="#" class="fab fa-linkedin"></a>
-        <a href="#" class="fab fa-pinterest"></a>
+       <a href="https://www.facebook.com/thecoffeeshop.newdelhi/?locale=fy_NL&_rdr" class="fab fa-facebook-f"></a>
+        <a href="https://x.com/i/flow/login?redirect_after_login=%2Fcoffeeshopworld" class="fab fa-twitter"></a>
+        <a href="https://www.instagram.com/coffeeshopsoftheworld/?hl=en" class="fab fa-instagram"></a>
+        <a href="https://www.linkedin.com/company/the-coffee-shop/about/" class="fab fa-linkedin"></a>
+        <a href="https://in.pinterest.com/ivomel/coffee-shop-ideas/" class="fab fa-pinterest"></a>
     </div>
     <div class="links">
         <a href="home.html"> Home </a>
