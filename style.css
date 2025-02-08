@@ -577,6 +577,22 @@ section{
     background: none;
 }
 
+.contact .row button{
+    background-color:#693218;
+    font-size: 2rem;
+    line-height: 1.4;
+    color: #fff;
+    padding: 2rem 1.rem; 
+    border-radius: 0.5rem; 
+    width: auto;
+    height: 3.5rem; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease, transform 0.3s ease;  
+}
+.contact .row button:hover {
+    background-color: #5c2710; 
+    transform: scale(1.05);
+}
 .blogs .box-container{
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(30rem,1fr));
@@ -639,10 +655,12 @@ section{
     border-radius:var(--border);
     margin: 3rem;
     border-radius: 50%;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+
 }
 
 .footer .share a:hover{
-    background: var(--main-color);
+    transform: scale(1.2);
 }
 
 .footer .links{
@@ -660,7 +678,8 @@ section{
 }
 
 .footer .links a:hover{
-    background: var(--main-color);
+    background: #6f4e37;
+    transform: scale(1.1);
 }
 
 .footer .credit{
